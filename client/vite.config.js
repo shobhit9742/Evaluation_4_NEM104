@@ -8,7 +8,8 @@ export default defineConfig({
     proxy: {
       "/api": {
         // '/api' should match the route prefix used for API calls
-        target: "http://localhost:4000",
+        // target: "http://localhost:4000",
+        target: "https://oliviaems.onrender.com",
         changeOrigin: true,
         secure: false,
       },
