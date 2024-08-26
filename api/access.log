@@ -1,0 +1,15 @@
+POST/createEvent 201 60.612 ms 299
+GET/events 200 46.339 ms 2413
+GET/events 304 36.324 ms -
+GET/event/66cc6b176420131bff94f0b8 200 36.197 ms 299
+GET/event/66cc6b176420131bff94f0b8 304 60.475 ms -
+GET/event/66cc6b176420131bff94f0b8/ordersummary 200 34.367 ms 299
+GET/event/66cc6b176420131bff94f0b8/ordersummary 304 33.446 ms -
+GET/event/66cc6b176420131bff94f0b8/ordersummary/paymentsummary 200 32.899 ms 299
+GET/event/66cc6b176420131bff94f0b8/ordersummary/paymentsummary 304 34.489 ms -
+GET/event/66cc6b176420131bff94f0b8/ordersummary 304 30.348 ms -
+GET/events 304 38.636 ms -
+GET/events 304 35.963 ms -
+GET/event/66cc6b176420131bff94f0b8/ordersummary 304 43.263 ms -
+GET/event/66cc6b176420131bff94f0b8 304 31.288 ms -
+GET/event/66cc6b176420131bff94f0b8 304 30.976 ms -
